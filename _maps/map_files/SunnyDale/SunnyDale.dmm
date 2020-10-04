@@ -8936,12 +8936,6 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/f13/desert)
-"ayw" = (
-/mob/living/simple_animal/hostile/handy/protectron,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/underground/enclave_base)
 "ayx" = (
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -10663,7 +10657,10 @@
 	dir = 1;
 	icon_state = "f13chair2"
 	},
-/mob/living/simple_animal/hostile/handy/protectron,
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
+	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
@@ -10759,7 +10756,10 @@
 /area/f13/underground/enclave_base)
 "aCS" = (
 /obj/structure/chair/f13chair2,
-/mob/living/simple_animal/hostile/handy/protectron,
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
+	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
@@ -10899,7 +10899,10 @@
 	},
 /area/f13/underground/enclave_base)
 "aDm" = (
-/mob/living/simple_animal/hostile/handy/protectron,
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
+	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
@@ -11566,7 +11569,10 @@
 	},
 /area/f13/underground/enclave_base)
 "aER" = (
-/mob/living/simple_animal/hostile/handy/protectron,
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
+	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
@@ -40612,7 +40618,7 @@ aCb
 arf
 auU
 aCF
-ayw
+aAk
 auU
 auU
 arf
@@ -43024,7 +43030,7 @@ auU
 aDY
 cLV
 aDY
-ayw
+aAk
 auU
 auU
 arf
@@ -45437,7 +45443,7 @@ bNA
 bNA
 aqI
 arf
-ayw
+aAk
 auU
 arf
 aqI
@@ -46632,7 +46638,7 @@ auU
 avo
 auU
 auU
-ayw
+aAk
 auU
 avS
 auU
@@ -47023,7 +47029,7 @@ auU
 auU
 auU
 auU
-ayw
+aAk
 auU
 auU
 aAk
@@ -47041,7 +47047,7 @@ auU
 auU
 auU
 auU
-ayw
+aAk
 auU
 auU
 avo
@@ -52668,7 +52674,7 @@ aCa
 aCa
 arf
 aCa
-aCa
+aDm
 aCa
 arf
 aqI
@@ -54669,7 +54675,7 @@ bNA
 aqI
 arf
 aCC
-aCb
+aER
 aCt
 aCb
 arf
@@ -58690,14 +58696,14 @@ aqI
 arf
 auU
 auU
-auU
+aAk
 aCE
 auU
 aDn
 aDD
 auU
 aCE
-auU
+aAk
 auU
 auU
 arf
