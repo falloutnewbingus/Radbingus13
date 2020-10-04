@@ -1336,7 +1336,6 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 	if(!M.reagents.has_reagent("stimpak") && !M.reagents.has_reagent("healing_powder")) //should prevent stacking with healing powder and stimpaks
 		M.adjustFireLoss(-3*REM)
 		M.adjustBruteLoss(-3*REM)
-		M.hallucination = max(M.hallucination, 5)
 		. = 1
 	..()
 
@@ -1732,6 +1731,6 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 	. = 1
 
 /datum/reagent/medicine/antivenom/overdose_process(mob/living/M)
-	M.adjustToxLoss(4*REM, 0) 
+	M.adjustToxLoss(4*REM, 0)
 	..()
 	. = 1
