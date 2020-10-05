@@ -84,8 +84,8 @@
 /area/f13/underground/enclave_base)
 "an" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -116,8 +116,8 @@
 /area/f13/underground/enclave_base)
 "aq" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -125,8 +125,8 @@
 /area/f13/underground/enclave_base)
 "ar" = (
 /obj/machinery/computer/shuttle/enclavefortelevator{
-	icon_state = "computer";
-	dir = 8
+	dir = 8;
+	icon_state = "computer"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -190,8 +190,8 @@
 /area/f13/underground/enclave_base)
 "az" = (
 /obj/structure/fence{
-	icon_state = "straight";
-	dir = 4
+	dir = 4;
+	icon_state = "straight"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -210,22 +210,20 @@
 	},
 /area/f13/underground/enclave_base)
 "aC" = (
-/obj/machinery/porta_turret/syndicate{
-	scan_range = 10
-	},
+/mob/living/simple_animal/hostile/handy/sentrybot,
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aD" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aE" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
@@ -251,15 +249,15 @@
 /area/f13/underground/enclave_base)
 "aI" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 6
+	dir = 6;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aJ" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 10
+	dir = 10;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
@@ -384,15 +382,15 @@
 /area/f13/underground/enclave_base)
 "aZ" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "ba" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 5
+	dir = 5;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
@@ -406,15 +404,15 @@
 /area/f13/underground/enclave_base)
 "bc" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 9
+	dir = 9;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "bd" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/machinery/light{
 	dir = 4
@@ -571,8 +569,8 @@
 /area/f13/underground/enclave_base)
 "by" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 8
+	dir = 8;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
@@ -580,8 +578,8 @@
 /area/f13/underground/enclave_base)
 "bz" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
@@ -666,7 +664,6 @@
 	},
 /area/f13/underground/enclave_base)
 "bL" = (
-/obj/machinery/rnd/destructive_analyzer,
 /obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
@@ -1079,8 +1076,8 @@
 /area/f13/underground/cave)
 "cP" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 8
+	dir = 8;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -1310,8 +1307,8 @@
 	light_color = "#e8eaff"
 	},
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -1345,8 +1342,7 @@
 	},
 /area/hydroponics/garden/abandoned)
 "dC" = (
-/obj/structure/frame,
-/obj/item/stack/cable_coil/red,
+/obj/machinery/seed_extractor,
 /turf/open/floor/plasteel/f13{
 	dir = 1;
 	icon_state = "greenrusty"
@@ -1455,8 +1451,8 @@
 /area/f13/bunker)
 "dS" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -2053,8 +2049,8 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "tracks";
-	dir = 10
+	dir = 10;
+	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -2065,8 +2061,8 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "tracks";
-	dir = 4
+	dir = 4;
+	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -2077,8 +2073,8 @@
 	icon_state = "2-8"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "tracks";
-	dir = 5
+	dir = 5;
+	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -2412,12 +2408,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"gh" = (
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/plasteel/f13{
-	icon_state = "redrustyfull"
-	},
-/area/f13/bunker)
 "gi" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -2667,12 +2657,12 @@
 /area/f13/bunker)
 "gK" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /obj/machinery/door/window/brigdoor{
-	icon_state = "leftsecure";
-	dir = 4
+	dir = 4;
+	icon_state = "leftsecure"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
@@ -2796,8 +2786,8 @@
 /area/f13/bunker)
 "gZ" = (
 /obj/structure/toilet{
-	icon_state = "toilet00";
-	dir = 8
+	dir = 8;
+	icon_state = "toilet00"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
@@ -2807,12 +2797,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
-	},
-/area/f13/bunker)
-"hb" = (
-/mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
@@ -2937,8 +2921,8 @@
 /area/f13/bunker)
 "hq" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 1
+	dir = 1;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -2955,8 +2939,8 @@
 /area/f13/bunker)
 "hs" = (
 /obj/structure/chair/office/dark{
-	icon_state = "officechair_dark";
-	dir = 4
+	dir = 4;
+	icon_state = "officechair_dark"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
@@ -2971,8 +2955,8 @@
 /area/f13/bunker)
 "hu" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
@@ -3065,8 +3049,8 @@
 "hF" = (
 /obj/machinery/light,
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 1
+	dir = 1;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -3295,6 +3279,7 @@
 /obj/item/stack/sheet/mineral/uranium{
 	amount = 25
 	},
+/mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
@@ -3393,7 +3378,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
@@ -3503,14 +3487,15 @@
 /obj/structure/window/reinforced/spawner/west,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
 "iC" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
@@ -3518,8 +3503,8 @@
 /area/f13/bunker)
 "iD" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
@@ -3593,32 +3578,26 @@
 /obj/effect/turf_decal/stripes/red/full,
 /obj/structure/window/reinforced/spawner,
 /obj/structure/window/reinforced/spawner/west,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
 "iM" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+/obj/machinery/light{
+	dir = 1
 	},
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/plasteel/f13{
-	icon_state = "redrustyfull"
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
 	},
-/area/f13/bunker)
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
 "iN" = (
 /obj/machinery/light,
-/turf/open/floor/plasteel/f13{
-	icon_state = "redrustyfull"
-	},
-/area/f13/bunker)
-"iO" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/ghoul/reaver,
+/mob/living/simple_animal/hostile/handy/sentrybot,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
@@ -3642,8 +3621,8 @@
 	},
 /area/f13/bunker)
 "iR" = (
-/obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
 /obj/structure/table/reinforced,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
@@ -3662,8 +3641,8 @@
 /area/medical/abandoned)
 "iT" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
@@ -3999,8 +3978,8 @@
 /area/f13/bunker)
 "jD" = (
 /obj/structure/chair/office/dark{
-	icon_state = "officechair_dark";
-	dir = 1
+	dir = 1;
+	icon_state = "officechair_dark"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
@@ -4012,6 +3991,7 @@
 	light_color = "#e8eaff"
 	},
 /obj/structure/table,
+/obj/item/book/granter/trait/chemistry,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
@@ -4205,8 +4185,8 @@
 /area/f13/bunker)
 "kd" = (
 /obj/structure/chair/office/dark{
-	icon_state = "officechair_dark";
-	dir = 1
+	dir = 1;
+	icon_state = "officechair_dark"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -4260,8 +4240,8 @@
 /area/f13/underground/vault_atrium_Lower)
 "kl" = (
 /obj/machinery/computer/shuttle/vaultelevator{
-	icon_state = "computer";
-	dir = 4
+	dir = 4;
+	icon_state = "computer"
 	},
 /obj/machinery/light{
 	dir = 8
@@ -4355,8 +4335,8 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -4388,8 +4368,8 @@
 /area/f13/underground/vault_atrium_Lower)
 "kG" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_Lower)
@@ -4404,8 +4384,8 @@
 	icon_state = "2-4"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_Lower)
@@ -4414,8 +4394,8 @@
 	icon_state = "1-8"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_Lower)
@@ -4449,8 +4429,8 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -4548,8 +4528,8 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -4561,8 +4541,8 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -4929,15 +4909,6 @@
 	icon_state = "whiteredfull"
 	},
 /area/f13/underground/enclave_base)
-"lV" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/mob/living/simple_animal/hostile/handy/gutsy,
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "whitepurplerustychess2"
-	},
-/area/f13/underground/enclave_base)
 "lW" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/underground/cave/vault)
@@ -4954,13 +4925,16 @@
 /area/f13/underground/cave/vault)
 "ma" = (
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-2"
 	},
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
 	},
-/area/f13/bunker)
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
 "mb" = (
 /turf/open/floor/plating/f13/inside/mountain{
 	icon_state = "mountain2"
@@ -4975,29 +4949,29 @@
 /area/f13/underground/cave/vault)
 "me" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 5
+	dir = 5;
+	icon_state = "pipe"
 	},
 /turf/closed/mineral/random/low_chance,
 /area/f13/underground/cave/vault)
 "mf" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/closed/mineral/random/low_chance,
 /area/f13/underground/cave/vault)
 "mg" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/closed/mineral/uranium,
 /area/f13/underground/cave/vault)
 "mh" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/open/floor/plating/f13/inside/mountain{
 	icon_state = "mountain2"
@@ -5005,54 +4979,51 @@
 /area/f13/underground/cave/vault)
 "mi" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/cave/vault)
 "mj" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 9
+	dir = 9;
+	icon_state = "pipe"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/cave/vault)
 "mk" = (
-/obj/machinery/light{
-	dir = 8
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
 	},
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/underground/enclave_base)
 "ml" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/vomit/old,
-/mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/bunker)
 "mm" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/mob/living/simple_animal/hostile/handy/gutsy{
+	a_intent = "harm";
+	name = "\improper Mister Gutsy"
 	},
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
-	},
-/area/f13/bunker)
+/turf/open/floor/plating,
+/area/f13/underground/enclave_base)
 "mn" = (
-/mob/living/simple_animal/hostile/ghoul/glowing,
+/mob/living/simple_animal/hostile/deathclaw/mother,
 /turf/open/floor/plating/f13/inside/mountain{
 	icon_state = "mountain2"
 	},
 /area/f13/tunnel)
 "mo" = (
-/mob/living/simple_animal/hostile/ghoul/glowing,
+/mob/living/simple_animal/hostile/deathclaw,
 /turf/open/floor/plating/f13/inside/mountain,
 /area/f13/tunnel)
 "mp" = (
@@ -5141,20 +5112,18 @@
 	},
 /area/f13/bunker)
 "mC" = (
-/mob/living/simple_animal/hostile/ghoul,
+/obj/machinery/biogenerator,
 /turf/open/floor/plasteel/f13{
-	icon_state = "redrustyfull"
+	dir = 1;
+	icon_state = "greenrusty"
 	},
-/area/f13/bunker)
+/area/hydroponics/garden/abandoned)
 "mD" = (
-/obj/machinery/light{
-	dir = 8
+/mob/living/simple_animal/hostile/deathclaw,
+/turf/open/floor/plating/f13/inside/mountain{
+	icon_state = "mountain2"
 	},
-/mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/plasteel/f13{
-	icon_state = "redrustyfull"
-	},
-/area/f13/bunker)
+/area/f13/tunnel)
 "mE" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
@@ -5165,13 +5134,61 @@
 /mob/living/simple_animal/hostile/molerat,
 /turf/open/floor/plating/f13/outside/desert,
 /area/f13/underground/cave/vault)
+"nv" = (
+/mob/living/simple_animal/hostile/handy/protectron,
+/turf/open/floor/plasteel/f13{
+	icon_state = "yellowrustyfull"
+	},
+/area/f13/bunker)
+"rR" = (
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/tunnel)
+"wP" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/mob/living/simple_animal/hostile/handy/protectron,
+/turf/open/floor/plasteel/f13{
+	icon_state = "yellowrustyfull"
+	},
+/area/f13/bunker)
 "Aw" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/indestructible,
 /area/f13/tcoms)
+"Ej" = (
+/mob/living/simple_animal/hostile/handy/robobrain,
+/turf/open/floor/plasteel/f13{
+	icon_state = "yellowrustyfull"
+	},
+/area/f13/bunker)
+"Jo" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/open/floor/plasteel/f13{
+	dir = 8;
+	icon_state = "greenrusty"
+	},
+/area/hydroponics/garden/abandoned)
 "Tn" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
+"UZ" = (
+/mob/living/simple_animal/hostile/handy/protectron,
+/turf/open/floor/plasteel/f13{
+	icon_state = "redrustyfull"
+	},
+/area/f13/bunker)
 "YF" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
@@ -48060,8 +48077,8 @@ dk
 dp
 dr
 dk
-dl
 mo
+dl
 aa
 aa
 aa
@@ -48316,10 +48333,10 @@ aa
 dl
 dq
 dk
-dk
+mn
 dl
 dl
-dl
+rR
 aa
 aa
 dU
@@ -48572,11 +48589,11 @@ aa
 aa
 aa
 aa
-mn
+dk
 dp
 dq
 dl
-mo
+dl
 aa
 dU
 dU
@@ -48832,7 +48849,7 @@ aa
 aa
 dl
 dl
-dl
+du
 dU
 dU
 dU
@@ -49607,7 +49624,7 @@ dk
 dU
 dU
 dU
-mo
+dl
 aa
 aa
 aa
@@ -49860,8 +49877,8 @@ aa
 ds
 ds
 dz
+mD
 dk
-mn
 dU
 dl
 do
@@ -50391,7 +50408,7 @@ ck
 ha
 ht
 hK
-mk
+ha
 ck
 ck
 aa
@@ -50637,9 +50654,9 @@ dl
 dl
 dl
 dk
+dU
 dl
-dl
-mn
+dk
 dU
 dU
 dU
@@ -50893,8 +50910,8 @@ ds
 aa
 do
 dl
-dl
 mo
+dU
 dU
 dk
 dq
@@ -51160,7 +51177,7 @@ aa
 ck
 gM
 fY
-fY
+Ej
 fY
 fY
 ip
@@ -52186,7 +52203,7 @@ ck
 ck
 ck
 ck
-hb
+fY
 fY
 hu
 hu
@@ -52710,7 +52727,7 @@ fY
 ck
 iZ
 gi
-hb
+fY
 ck
 aa
 aa
@@ -52963,7 +52980,7 @@ hx
 hO
 if
 it
-mm
+gP
 gy
 gP
 gk
@@ -53211,19 +53228,19 @@ aa
 aa
 ck
 fG
-fZ
+wP
 gk
 ck
-fY
+nv
 hf
 hy
 hP
 ig
 iu
-fY
+nv
 ck
 fY
-fY
+nv
 fY
 ck
 aa
@@ -53468,7 +53485,7 @@ aa
 aa
 ck
 fI
-hb
+fY
 fY
 eL
 fY
@@ -53480,7 +53497,7 @@ iu
 fY
 eL
 ja
-hb
+fY
 jt
 ck
 aa
@@ -53729,7 +53746,7 @@ ck
 ck
 ck
 gQ
-ma
+hg
 hA
 hR
 ii
@@ -54491,7 +54508,7 @@ ef
 ep
 ms
 ef
-dV
+Jo
 ff
 dv
 ck
@@ -55256,7 +55273,7 @@ aa
 aa
 aa
 dv
-dC
+mC
 dW
 eg
 eg
@@ -61247,7 +61264,7 @@ ab
 bQ
 bV
 cb
-bQ
+mm
 bV
 cb
 ab
@@ -61744,14 +61761,14 @@ bb
 bb
 bb
 bb
-bb
+ma
 bb
 bj
 bv
 bv
 bv
 bv
-lV
+bv
 bI
 bv
 bN
@@ -62007,7 +62024,7 @@ ab
 bu
 bz
 bu
-bu
+mk
 bu
 bw
 bu
@@ -63036,7 +63053,7 @@ aa
 aa
 ab
 bE
-bu
+mk
 bJ
 bu
 ab
@@ -63277,7 +63294,7 @@ aa
 aa
 aa
 ab
-aN
+iM
 aS
 ab
 aa
@@ -65042,7 +65059,7 @@ hG
 hY
 fc
 iC
-iM
+iC
 ck
 aa
 aa
@@ -65076,7 +65093,7 @@ aa
 aa
 aa
 ab
-ad
+bs
 aS
 ab
 aa
@@ -65290,15 +65307,15 @@ ft
 cw
 fD
 fc
-gh
 fc
+UZ
 fc
 gV
 hr
 hH
 hY
 eO
-gh
+fc
 iN
 ck
 aa
@@ -65556,7 +65573,7 @@ hG
 hY
 fc
 iD
-iO
+iD
 ck
 aa
 aa
@@ -66580,7 +66597,7 @@ fc
 eL
 gX
 hs
-fc
+UZ
 ib
 ck
 ck
@@ -66843,7 +66860,7 @@ ck
 ck
 hZ
 fc
-fc
+UZ
 fc
 fc
 ck
@@ -67122,10 +67139,10 @@ aj
 ad
 ao
 ad
-ak
+ad
 ad
 ao
-ad
+bs
 aw
 ad
 az
@@ -67345,8 +67362,8 @@ aa
 aa
 aa
 ck
-mC
 fc
+UZ
 fc
 gJ
 eO
@@ -67354,13 +67371,13 @@ fc
 fc
 fc
 fc
-mD
+gJ
 fc
 eO
 fc
 fc
 fc
-mD
+gJ
 fc
 ck
 aa
@@ -67390,7 +67407,7 @@ ad
 ad
 ao
 ad
-ad
+bs
 bf
 bh
 bn
@@ -67610,13 +67627,13 @@ fc
 fc
 fc
 fc
-fc
-fc
-mC
-fc
+UZ
 fc
 fc
 fc
+fc
+fc
+UZ
 fc
 eO
 ck
