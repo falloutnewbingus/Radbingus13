@@ -2408,12 +2408,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"gh" = (
-/mob/living/simple_animal/hostile/handy/sentrybot,
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
-	},
-/area/f13/underground/enclave_base)
 "gi" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -4913,15 +4907,6 @@
 /obj/item/book/granter/trait/pa_wear,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
-	},
-/area/f13/underground/enclave_base)
-"lV" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/mob/living/simple_animal/hostile/handy/sentrybot,
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "whitepurplerustychess2"
 	},
 /area/f13/underground/enclave_base)
 "lW" = (
@@ -60994,7 +60979,7 @@ aa
 aa
 aa
 ab
-bQ
+aC
 aH
 ad
 ad
@@ -61783,7 +61768,7 @@ bv
 bv
 bv
 bv
-lV
+bv
 bI
 bv
 bN
@@ -62039,7 +62024,7 @@ ab
 bu
 bz
 bu
-bu
+mk
 bu
 bw
 bu
@@ -62284,7 +62269,7 @@ aK
 ad
 aS
 bd
-bQ
+aC
 ab
 aa
 aa
@@ -67151,7 +67136,7 @@ aa
 ab
 ad
 aj
-gh
+ad
 ao
 ad
 ad
