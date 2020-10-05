@@ -667,7 +667,6 @@
 /area/f13/underground/enclave_base)
 "bL" = (
 /obj/machinery/rnd/destructive_analyzer,
-/obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
@@ -4943,7 +4942,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/mob/living/simple_animal/hostile/handy/gutsy,
+/mob/living/simple_animal/hostile/handy/sentrybot,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
@@ -5173,23 +5172,17 @@
 /mob/living/simple_animal/hostile/molerat,
 /turf/open/floor/plating/f13/outside/desert,
 /area/f13/underground/cave/vault)
-"uS" = (
+"nv" = (
 /mob/living/simple_animal/hostile/handy/protectron,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/bunker)
-"xC" = (
-/mob/living/simple_animal/hostile/handy/robobrain,
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
-	},
-/area/f13/bunker)
-"Aw" = (
-/obj/machinery/telecomms/relay/preset/telecomms,
-/turf/open/indestructible,
-/area/f13/tcoms)
-"HM" = (
+"rR" = (
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/tunnel)
+"wP" = (
 /obj/machinery/power/terminal{
 	dir = 1
 	},
@@ -5201,17 +5194,17 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/bunker)
-"IU" = (
-/mob/living/simple_animal/hostile/handy/protectron,
+"Aw" = (
+/obj/machinery/telecomms/relay/preset/telecomms,
+/turf/open/indestructible,
+/area/f13/tcoms)
+"Ej" = (
+/mob/living/simple_animal/hostile/handy/robobrain,
 /turf/open/floor/plasteel/f13{
-	icon_state = "redrustyfull"
+	icon_state = "yellowrustyfull"
 	},
 /area/f13/bunker)
-"LQ" = (
-/obj/effect/spawner/lootdrop/f13/armor/tier3,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/tunnel)
-"SW" = (
+"Jo" = (
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#e8eaff"
@@ -5228,6 +5221,12 @@
 "Tn" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
+"UZ" = (
+/mob/living/simple_animal/hostile/handy/protectron,
+/turf/open/floor/plasteel/f13{
+	icon_state = "redrustyfull"
+	},
+/area/f13/bunker)
 "YF" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
@@ -48375,7 +48374,7 @@ dk
 mn
 dl
 dl
-LQ
+rR
 aa
 aa
 dU
@@ -51216,7 +51215,7 @@ aa
 ck
 gM
 fY
-xC
+Ej
 fY
 fY
 ip
@@ -53267,19 +53266,19 @@ aa
 aa
 ck
 fG
-HM
+wP
 gk
 ck
-uS
+nv
 hf
 hy
 hP
 ig
 iu
-uS
+nv
 ck
 fY
-uS
+nv
 fY
 ck
 aa
@@ -54547,7 +54546,7 @@ ef
 ep
 ms
 ef
-SW
+Jo
 ff
 dv
 ck
@@ -62321,7 +62320,7 @@ bw
 bA
 bC
 bu
-mk
+bu
 bu
 bM
 ab
@@ -63092,7 +63091,7 @@ aa
 aa
 ab
 bE
-bu
+mk
 bJ
 bu
 ab
@@ -65347,7 +65346,7 @@ cw
 fD
 fc
 fc
-IU
+UZ
 fc
 gV
 hr
@@ -66636,7 +66635,7 @@ fc
 eL
 gX
 hs
-IU
+UZ
 ib
 ck
 ck
@@ -66899,7 +66898,7 @@ ck
 ck
 hZ
 fc
-IU
+UZ
 fc
 fc
 ck
@@ -67402,7 +67401,7 @@ aa
 aa
 ck
 fc
-IU
+UZ
 fc
 gJ
 eO
@@ -67666,13 +67665,13 @@ fc
 fc
 fc
 fc
-IU
+UZ
 fc
 fc
 fc
 fc
 fc
-IU
+UZ
 fc
 eO
 ck
