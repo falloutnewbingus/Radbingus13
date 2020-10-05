@@ -24435,14 +24435,12 @@
 	},
 /area/f13/ncr_main)
 "bpz" = (
-/mob/living/simple_animal/hostile/handy/gutsy{
-	a_intent = "harm";
-	name = "\improper Mister Gutsy"
+/obj/machinery/light/lampost,
+/turf/open/floor/plating/f13/outside/road{
+	dir = 2;
+	icon_state = "outerbordercorner"
 	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
-	},
-/area/f13/underground/enclave_base)
+/area/f13/desert)
 "bpA" = (
 /obj/structure/bed/mattress/pregame,
 /obj/item/radio/intercom{
@@ -34863,6 +34861,13 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/mountain_bunker)
+"kUu" = (
+/obj/machinery/light/lampost,
+/turf/open/floor/plating/f13/outside/road{
+	dir = 8;
+	icon_state = "outerbordercorner"
+	},
+/area/f13/desert)
 "lkz" = (
 /obj/structure/chair/f13chair2{
 	dir = 1;
@@ -35449,6 +35454,13 @@
 /obj/machinery/forge,
 /turf/open/floor/plasteel/floorgrime,
 /area/f13/legioncamp)
+"rJY" = (
+/obj/machinery/light/lampost,
+/turf/open/floor/plating/f13/outside/road{
+	dir = 1;
+	icon_state = "outerbordercorner"
+	},
+/area/f13/desert)
 "rKb" = (
 /obj/effect/spawner/lootdrop/f13/crafting,
 /turf/open/floor/wood/f13/old,
@@ -35625,6 +35637,13 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/mountain_bunker)
+"toU" = (
+/obj/machinery/light/lampost,
+/turf/open/floor/plating/f13/outside/road{
+	dir = 4;
+	icon_state = "outerbordercorner"
+	},
+/area/f13/desert)
 "tss" = (
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "horizontaltopborderbottom0"
@@ -40598,7 +40617,7 @@ auU
 arf
 aGh
 aFU
-aGh
+aFP
 aFU
 aGh
 aFU
@@ -42608,7 +42627,7 @@ auU
 arf
 aGh
 aFU
-aGh
+aFP
 aFU
 aGh
 aFU
@@ -42625,7 +42644,7 @@ avo
 aJM
 aJM
 aJM
-bpz
+aJM
 aJM
 aJM
 aJM
@@ -47846,7 +47865,7 @@ aag
 aag
 aag
 aFW
-aJg
+bpz
 acv
 acv
 auT
@@ -47856,7 +47875,7 @@ baE
 ajy
 acv
 acv
-ajx
+toU
 afv
 aag
 aag
@@ -49069,6 +49088,7 @@ acv
 acv
 acv
 acv
+aQK
 acv
 acv
 acv
@@ -49076,8 +49096,7 @@ acv
 acv
 acv
 acv
-acv
-acv
+aQK
 acv
 acv
 acv
@@ -55082,7 +55101,7 @@ aaf
 aag
 aag
 aFW
-aeo
+kUu
 acy
 acy
 acy
@@ -55092,7 +55111,7 @@ acy
 acy
 acy
 acy
-aLJ
+rJY
 afv
 aag
 aag
