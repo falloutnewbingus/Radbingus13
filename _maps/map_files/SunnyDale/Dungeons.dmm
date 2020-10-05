@@ -210,9 +210,7 @@
 	},
 /area/f13/underground/enclave_base)
 "aC" = (
-/obj/machinery/porta_turret/syndicate{
-	scan_range = 10
-	},
+/mob/living/simple_animal/hostile/handy/sentrybot,
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aD" = (
@@ -2809,15 +2807,6 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/bunker)
-"hb" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/handy/sentrybot,
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
-	},
-/area/f13/underground/enclave_base)
 "hc" = (
 /obj/machinery/light{
 	dir = 8
@@ -3619,18 +3608,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"iO" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/mob/living/simple_animal/hostile/handy/gutsy{
-	a_intent = "harm";
-	name = "\improper Mister Gutsy"
-	},
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
-	},
-/area/f13/underground/enclave_base)
 "iP" = (
 /obj/item/gun/ballistic/shotgun/riot,
 /obj/structure/guncase/shotgun,
@@ -61017,7 +60994,7 @@ aa
 aa
 aa
 ab
-aC
+bQ
 aH
 ad
 ad
@@ -61277,7 +61254,7 @@ ab
 aD
 aI
 ad
-bs
+ad
 ba
 aD
 ab
@@ -62048,7 +62025,7 @@ ab
 aE
 aJ
 ad
-iO
+aS
 bc
 aE
 ab
@@ -62307,7 +62284,7 @@ aK
 ad
 aS
 bd
-aC
+bQ
 ab
 aa
 aa
@@ -67177,12 +67154,12 @@ aj
 gh
 ao
 ad
-hb
+ad
 ad
 ao
-ad
+bs
 aw
-gh
+ad
 az
 aB
 aB
