@@ -91,8 +91,7 @@
 	name = "Propaganda eyebot"
 	result = /mob/living/simple_animal/pet/dog/eyebot
 	reqs = list(/obj/item/stack/crafting/electronicparts = 5,
-				/obj/item/stack/crafting/metalparts = 3,
-				/obj/item/stack/crafting/goodparts = 2)
+				/obj/item/stack/sheet/metal = 3)
 	tools = list(TOOL_WORKBENCH)
 	time = 40
 	category = CAT_ROBOT
@@ -102,7 +101,7 @@
 /datum/crafting_recipe/needlerammo
 	name = "needler stripper clip (needle darts)"
 	result = /obj/item/ammo_box/needle
-	reqs = list(/obj/item/stack/crafting/metalparts = 3)
+	reqs = list(/obj/item/stack/sheet/metal = 3)
 	traits = list(TRAIT_GUNSMITH_TWO)
 	tools = list(TOOL_WORKBENCH, TOOL_SCREWDRIVER)
 	time = 10
@@ -112,7 +111,7 @@
 /datum/crafting_recipe/needlerammoap
 	name = "armour-piercing needler stripper clip (needle darts)"
 	result = /obj/item/ammo_box/needleap
-	reqs = list(/obj/item/stack/crafting/goodparts = 3)
+	reqs = list(/obj/item/stack/sheet/metal = 5)
 	traits = list(TRAIT_GUNSMITH_THREE)
 	tools = list(TOOL_AWORKBENCH, TOOL_SCREWDRIVER)
 	time = 10
@@ -605,7 +604,7 @@
 	result = /obj/item/ammo_casing/caseless/arrow/ap
 	time = 40
 	reqs = list(/obj/item/stack/rods = 2,
-				/obj/item/stack/crafting/metalparts = 2)
+				/obj/item/stack/sheet/metal = 2)
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_WEAPONRY
 	subcategory = CAT_AMMO
@@ -766,7 +765,7 @@
 	name = "10mm pistol"
 	result = /obj/item/gun/ballistic/automatic/pistol/n99
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 3,
+				/obj/item/stack/sheet/metal = 4,
 				/datum/reagent/blackpowder = 10,
 				/obj/item/stack/sheet/metal = 1)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER2)
@@ -779,7 +778,7 @@
 	name = "colt 6250"
 	result = /obj/item/gun/ballistic/revolver/colt6250
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 5,
+				/obj/item/stack/sheet/metal = 5,
 				/datum/reagent/blackpowder = 10,
 				/obj/item/stack/sheet/metal = 1)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER1)
@@ -792,7 +791,7 @@
 	name = "9mm pistol"
 	result = /obj/item/gun/ballistic/automatic/pistol/ninemil
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 1,
+				/obj/item/stack/sheet/metal = 1,
 				/datum/reagent/blackpowder = 10,
 				/obj/item/stack/sheet/metal = 2)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER1)
@@ -805,7 +804,7 @@
 	name = "M1911"
 	result = /obj/item/gun/ballistic/automatic/pistol/m1911
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 2,
+				/obj/item/stack/sheet/metal = 2,
 				/datum/reagent/blackpowder = 10,
 				/obj/item/stack/sheet/metal = 1)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER2)
@@ -818,7 +817,7 @@
 	name = "desert eagle"
 	result = /obj/item/gun/ballistic/automatic/pistol/deagle
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 3,
+				/obj/item/stack/sheet/metal = 3,
 				/datum/reagent/blackpowder = 15,
 				/obj/item/stack/sheet/metal = 3)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER3)
@@ -831,7 +830,7 @@
 	name = ".223 pistol"
 	result = /obj/item/gun/ballistic/revolver/thatgun
 	reqs = list(/obj/item/gun/ballistic/shotgun/remington = 1,
-				/obj/item/stack/crafting/metalparts = 2,
+				/obj/item/stack/sheet/metal = 2,
 				/obj/item/stack/sheet/mineral/titanium = 1,
 				/datum/reagent/blackpowder = 15,
 				/obj/item/stack/sheet/metal = 3)
@@ -845,8 +844,7 @@
 	name = "needler pistol"
 	result = /obj/item/gun/ballistic/revolver/needler
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 3,
-				/obj/item/stack/crafting/goodparts = 1,
+				/obj/item/stack/sheet/metal = 3,
 				/obj/item/stack/sheet/mineral/titanium = 3,
 				/datum/reagent/blackpowder = 5,
 				/obj/item/stack/sheet/metal = 4)
@@ -871,7 +869,7 @@
 	name = "hunting rifle"
 	result = /obj/item/gun/ballistic/shotgun/remington
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 4,
+				/obj/item/stack/sheet/metal = 4,
 				/datum/reagent/blackpowder = 20,
 				/obj/item/stack/sheet/metal = 3)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER2)
@@ -886,7 +884,7 @@
 	reqs = list(/obj/item/gun/ballistic/shotgun/remington = 1,
 				/obj/item/stack/sheet/glass = 2,
 				/datum/reagent/blackpowder = 20,
-				/obj/item/stack/crafting/metalparts = 1)
+				/obj/item/stack/sheet/metal = 1)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER3)
 	traits = list(TRAIT_GUNSMITH_THREE)
 	time = 120
@@ -897,8 +895,7 @@
 	name = "M1 Garand"
 	result = /obj/item/gun/ballistic/automatic/m1garand
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 2,
-				/obj/item/stack/crafting/goodparts = 2,
+				/obj/item/stack/sheet/metal = 4,
 				/datum/reagent/blackpowder = 25,
 				/obj/item/stack/sheet/metal = 1)
 	tools = list(TOOL_WORKBENCH, /obj/item/blueprint/weapon/m1garand, TOOL_GUNTIER4)
@@ -911,7 +908,7 @@
 	name = "varmint rifle"
 	result = /obj/item/gun/ballistic/automatic/marksman/servicerifle/varmint
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 4,
+				/obj/item/stack/sheet/metal = 4,
 				/datum/reagent/blackpowder = 20,
 				/obj/item/stack/sheet/metal = 1)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER2)
@@ -924,8 +921,7 @@
 	name = "colt rangemaster"
 	result = /obj/item/gun/ballistic/automatic/rangemaster
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 4,
-				/obj/item/stack/sheet/metal = 3,
+				/obj/item/stack/sheet/metal = 4,
 				/datum/reagent/blackpowder = 20)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER3)
 	traits = list(TRAIT_GUNSMITH_THREE)
@@ -938,7 +934,7 @@
 	result = /obj/item/gun/ballistic/automatic/rangemaster/scoped
 	reqs = list(/obj/item/gun/ballistic/automatic/rangemaster = 1,
 				/obj/item/stack/sheet/glass = 2,
-				/obj/item/stack/crafting/metalparts = 1,
+				/obj/item/stack/sheet/metal = 1,
 				/datum/reagent/blackpowder = 20)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER3)
 	traits = list(TRAIT_GUNSMITH_THREE)
@@ -950,9 +946,7 @@
 	name = "r91 assault rifle"
 	result = /obj/item/gun/ballistic/automatic/assault_rifle
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 1,
-				/obj/item/stack/sheet/metal = 4,
-				/obj/item/stack/crafting/goodparts = 1,
+				/obj/item/stack/sheet/metal = 8,
 				/obj/item/stack/sheet/mineral/titanium = 2,
 				/datum/reagent/blackpowder = 30)
 	tools = list(TOOL_WORKBENCH, /obj/item/blueprint/weapon/r91, TOOL_GUNTIER3)
@@ -966,7 +960,6 @@
 	result = /obj/item/gun/ballistic/automatic/assault_rifle/infiltrator
 	reqs = list(/obj/item/gun/ballistic/automatic/assault_rifle = 1,
 				/obj/item/stack/sheet/glass = 2,
-				/obj/item/stack/crafting/goodparts = 1,
 				/obj/item/suppressor = 1,
 				/obj/item/stack/sheet/plastic = 1,
 				/datum/reagent/blackpowder = 30)
@@ -980,8 +973,7 @@
 	name = "service rifle"
 	result = /obj/item/gun/ballistic/automatic/marksman/servicerifle
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 2,
-				/obj/item/stack/sheet/metal = 6,
+				/obj/item/stack/sheet/metal = 8,
 				/datum/reagent/blackpowder = 20)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER3)
 	traits = list(TRAIT_GUNSMITH_THREE)
@@ -993,9 +985,7 @@
 	name = "marksman rifle"
 	result = /obj/item/gun/ballistic/automatic/marksman
 	reqs = list(/obj/item/stack/sheet/plastic = 1,
-				/obj/item/stack/crafting/metalparts = 3,
-				/obj/item/stack/crafting/goodparts = 3,
-				/obj/item/stack/sheet/metal = 3,
+				/obj/item/stack/sheet/metal = 10,
 				/obj/item/stack/sheet/mineral/titanium = 3,
 				/datum/reagent/blackpowder = 30)
 	tools = list(TOOL_AWORKBENCH, /obj/item/blueprint/weapon/marksmanrifle, TOOL_GUNTIER3)
@@ -1008,8 +998,7 @@
 	name = "fn fal"
 	result = /obj/item/gun/ballistic/automatic/fnfal
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 2,
-				/obj/item/stack/sheet/metal = 3,
+				/obj/item/stack/sheet/metal = 7,
 				/obj/item/stack/sheet/mineral/titanium = 2,
 				/datum/reagent/blackpowder = 30)
 	tools = list(TOOL_WORKBENCH, /obj/item/blueprint/weapon/fnfal, TOOL_GUNTIER4)
@@ -1022,7 +1011,7 @@
 	name = "winchester widowmaker double barrel"
 	result = /obj/item/gun/ballistic/revolver/widowmaker
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 5,
+				/obj/item/stack/sheet/metal = 5,
 				/datum/reagent/blackpowder = 5)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER1)
 	traits = list(TRAIT_GUNSMITH_ONE)
@@ -1034,8 +1023,7 @@
 	name = "hunting shotgun"
 	result = /obj/item/gun/ballistic/shotgun/hunting
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 3,
-				/obj/item/stack/sheet/metal = 3,
+				/obj/item/stack/sheet/metal = 6,
 				/datum/reagent/blackpowder = 15)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER2)
 	traits = list(TRAIT_GUNSMITH_TWO)
@@ -1047,7 +1035,7 @@
 	name = "M3A1 Grease Gun"
 	result = /obj/item/gun/ballistic/automatic/greasegun
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 6,
+				/obj/item/stack/sheet/metal = 6,
 				/datum/reagent/blackpowder = 25)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER2)
 	traits = list(TRAIT_GUNSMITH_TWO)
@@ -1059,8 +1047,7 @@
 	name = "10mm submachine gun"
 	result = /obj/item/gun/ballistic/automatic/smg10mm
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1,
-				/obj/item/stack/crafting/metalparts = 2,
-				/obj/item/stack/crafting/goodparts = 1,
+				/obj/item/stack/sheet/metal = 5,
 				/datum/reagent/blackpowder = 25,
 				/obj/item/stack/sheet/metal = 2)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER3)
@@ -1084,8 +1071,7 @@
 	name = "(Upgrade) Glock 86a"
 	result = /obj/item/gun/energy/laser/plasma/glock/extended
 	reqs = list(/obj/item/gun/energy/laser/plasma/glock = 1,
-				/obj/item/stack/crafting/metalparts = 3,
-				/obj/item/stack/sheet/metal = 1,
+				/obj/item/stack/sheet/metal = 3,
 				/obj/item/stack/crafting/electronicparts = 3)
 	tools = list(TOOL_WORKBENCH, TOOL_GUNTIER3)
 	traits = list(TRAIT_GUNSMITH_THREE)
@@ -1461,7 +1447,7 @@
 				/obj/item/crowbar = 1,
 				/obj/item/wrench = 1,
 				/obj/item/wirecutters = 1,
-				/obj/item/stack/crafting/metalparts = 5)
+				/obj/item/stack/sheet/metal = 5)
 	time = 80
 	category = CAT_MISC
 /*
