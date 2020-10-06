@@ -40,9 +40,9 @@
 	breakthings = FALSE
 
 /obj/item/projectile/bullet/a50MG
-	damage = 60
+	damage = 0
 	dismemberment = 0
-	armour_penetration = 65
+	armour_penetration = 0
 
 /obj/item/projectile/bullet/a50MG/incendiary
 	damage = -20
