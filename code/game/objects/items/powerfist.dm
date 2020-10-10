@@ -7,8 +7,8 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	flags_1 = CONDUCT_1
 	attack_verb = list("whacked", "fisted", "power-punched")
-	force = 40
-	armour_penetration = 50
+	force = 35
+	armour_penetration = 30
 	throwforce = 10
 	throw_range = 7
 	w_class = WEIGHT_CLASS_NORMAL
@@ -20,8 +20,8 @@
 	name = "\improper Goliath" //the Goliath
 	desc = "A metal gauntlet with a piston-powered ram on top. This one has been painted in the colors of Caesar's Legion, and features a brutal metal spike to increase penetration and damage."
 	icon_state = "goliath"
-	force = 60 //you are Strongly Encouraged not to get hit by this.
-	armour_penetration = 80 //what is armor?
+	force = 40
+	armour_penetration = 60
 	throwforce = 20
 
 /obj/item/gun/ballistic/revolver/ballisticfist //it's a double-barrel shotgun disguised as a fist shhh
@@ -33,7 +33,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	force = 30
-	armour_penetration = 40
+	armour_penetration = 30
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/dual
 	fire_sound = 'sound/f13weapons/caravan_shotgun.ogg'
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_GLOVES
