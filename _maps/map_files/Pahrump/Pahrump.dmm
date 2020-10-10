@@ -34029,9 +34029,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/overseer)
 "bWv" = (
-/obj/machinery/computer/card{
-	dir = 8
-	},
+/obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/overseer)
 "bWw" = (
@@ -34941,12 +34939,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/idcontrol)
 "bYC" = (
-/obj/machinery/computer/card{
-	dir = 8
-	},
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/table,
+/obj/item/pen,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/idcontrol)
 "bYD" = (

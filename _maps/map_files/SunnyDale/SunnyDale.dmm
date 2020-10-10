@@ -5819,9 +5819,7 @@
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "art" = (
-/obj/machinery/computer/card{
-	dir = 8
-	},
+/obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/underground/overseer_office)
 "aru" = (
@@ -6996,12 +6994,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/crew_quarters/heads/hop)
 "atY" = (
-/obj/machinery/computer/card{
-	dir = 8
-	},
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/table,
+/obj/item/pen,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/crew_quarters/heads/hop)
 "atZ" = (
