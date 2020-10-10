@@ -383,11 +383,10 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	icon_state = "throw_spear"
 	item_state = "tribalspear"
 	force = 20
-	throwforce = 35
+	throwforce = 30
 	item_flags = SLOWS_WHILE_IN_HAND
-	throw_speed = 12
-	slowdown = 0.3
-	embedding = list("embedded_pain_multiplier" = 2, "embed_chance" = 50, "embedded_fall_chance" = 30)
+	throw_speed = 15
+	embedding = list("embedded_pain_multiplier" = 2, "embed_chance" = 65, "embedded_fall_chance" = 15)
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/throwing_star/throwingknife
