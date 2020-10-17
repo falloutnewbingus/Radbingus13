@@ -39401,9 +39401,7 @@
 /area/f13/wasteland)
 "cnU" = (
 /obj/landmark/vertibird_enter,
-/turf/open/floor/f13{
-	icon_state = "darkdirty"
-	},
+/turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "cnV" = (
 /obj/machinery/computer/vertibird_console,
@@ -40744,6 +40742,17 @@
 /obj/item/chair,
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
+"lkP" = (
+/obj/structure/closet/crate{
+	name = "emergency supplies crate"
+	},
+/obj/item/vertibird_flare,
+/obj/item/vertibird_flare,
+/obj/item/vertibird_flare,
+/turf/open/floor/f13{
+	icon_state = "darkdirty"
+	},
+/area/f13/caves)
 "lmA" = (
 /obj/structure/table/wood/settler,
 /obj/item/kitchen/knife,
@@ -40779,6 +40788,10 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/city)
+"lMU" = (
+/obj/machinery/button/vertibird,
+/turf/closed/indestructible/rock,
+/area/f13/caves)
 "lNT" = (
 /obj/structure/billboard/ritas,
 /turf/open/indestructible/ground/outside/dirt{
@@ -167159,7 +167172,7 @@ aae
 aae
 aae
 aae
-aaa
+lMU
 aae
 aae
 aae
@@ -168437,8 +168450,8 @@ chc
 cnX
 coe
 cnY
-cnU
-cob
+cnQ
+lkP
 chc
 chc
 aae
@@ -169978,7 +169991,7 @@ aae
 aae
 aae
 aae
-aae
+cnU
 aae
 aae
 aae
